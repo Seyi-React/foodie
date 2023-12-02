@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Assets/Logo.svg";
+// import Logo from "../Assets/Logo.svg";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer-wrapper">
       <div className="footer-section-one">
         <div className="footer-logo-container">
-          <img src={Logo} alt="" />
+          {/* <img src={Logo} alt="" /> */}
         </div>
         <div className="footer-icons">
           <BsTwitter />
@@ -21,10 +21,10 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
+          <span>Quality</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
+          <span>Careers</span>
           <span>Testimonials</span>
           <span>Work</span>
         </div>
@@ -38,6 +38,9 @@ const Footer = () => {
           <span>Terms & Conditions</span>
           <span>Privacy Policy</span>
         </div>
+      </div>
+      <div className="copy-right">
+          <p>Made by Oluwaseyi <span style={{fontSize:'20px'}}>&hearts;</span> </p>
       </div>
     </div>
   );
